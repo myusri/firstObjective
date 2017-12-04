@@ -1,27 +1,11 @@
 #import "frac.h"
 
 @implementation Fraction
-{
-    int numerator;
-    int denominator;
-}
 -(void) print {
-    NSLog(@"%i/%i (%g)", numerator, denominator, [self asDouble]);
-}
--(void) setNumerator: (int) n {
-    numerator = n;
-}
--(void) setDenominator: (int) d {
-    denominator = d;
-}
--(int) denominator {
-    return denominator;
-}
--(int) numerator {
-    return numerator;
+    NSLog(@"%i/%i (%g)", _numerator, _denominator, [self asDouble]);
 }
 -(double) asDouble {
-    if (denominator == 0) return NAN;
-    return (double)numerator/denominator;
+    if (_denominator == 0) return NAN;
+    return (double)_numerator/_denominator;
 }
 @end
