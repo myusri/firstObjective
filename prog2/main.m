@@ -1,17 +1,17 @@
-//
-//  main.m
-//  prog2
-//
-//  Created by Mohamad Yusri on 04/12/2017.
-//  Copyright © 2017 Mohamad Yusri. All rights reserved.
-//
-
-#import <Foundation/Foundation.h>
+#import "frac.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Fraction *f1 = [Fraction new];
+        Fraction *f2 = [Fraction new];
+        [f1 setNumerator: 3];
+        [f1 setDenominator: 4];
+        [f2 setNumerator: 1];
+        [f2 setDenominator: 4];
+        NSLog(@"fraction 1: ");
+        [f1 print];
+        NSLog(@"fraction 2: ");
+        [f2 print];
     }
     return 0;
 }

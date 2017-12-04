@@ -1,13 +1,10 @@
-//
-//  frac.h
-//  prog2
-//
-//  Created by Mohamad Yusri on 04/12/2017.
-//  Copyright © 2017 Mohamad Yusri. All rights reserved.
-//
+#import <Foundation/Foundation.h>
 
-#ifndef frac_h
-#define frac_h
-
-
-#endif /* frac_h */
+@interface Fraction : NSObject
+-(void) print;
+-(void) setNumerator: (int) n;
+-(void) setDenominator: (int) d;
+-(int) numerator;
+-(int) denominator;
+-(double) asDouble;
+@end
