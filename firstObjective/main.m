@@ -2,10 +2,8 @@
 #import "complex.h"
 
 static Fraction *testFraction(void) {
-    Fraction *f1 = [Fraction new];
-    Fraction *f2 = [Fraction new];
-    [f1 setTo: 3 over: 4];
-    [f2 setTo: 1 over: 6];
+    Fraction *f1 = [[Fraction alloc] initTo: 3 over: 4];
+    Fraction *f2 = [[Fraction alloc] initTo: 1 over: 6];
     NSLog(@"fraction 1: ");
     [f1 print];
     NSLog(@"fraction 2: ");
@@ -17,12 +15,10 @@ static Fraction *testFraction(void) {
 }
 
 static Complex *testComplex(void) {
-    Complex *c1 = [Complex new];
-    Complex *c2 = [Complex new];
-    [c1 setReal: 1 andImag: 2];
+    Complex *c1 = [[Complex alloc] initReal: 1 andImag: 2];
+    Complex *c2 = [[Complex alloc] initReal: 3 andImag: -1.5];
     NSLog(@"complex 1:");
     [c1 print];
-    [c2 setReal: 3 andImag: -1.5];
     NSLog(@"complex 2:");
     [c2 print];
     Complex *c3 = [c1 add: c2];

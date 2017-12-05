@@ -1,6 +1,16 @@
 #import "complex.h"
 
 @implementation Complex
+-(instancetype) initReal: (double) r andImag: (double) i {
+    self = [super init];
+    if (self) {
+        [self setReal: r andImag: i];
+    }
+    return self;
+}
+-(instancetype) init {
+    return [self initReal: 0 andImag: 0];
+}
 -(void) print {
     NSLog(@"%g + %gi", _real, _imag);
 }

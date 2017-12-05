@@ -2,6 +2,8 @@
 
 @interface Fraction : NSObject
 @property int numerator, denominator;
+-(instancetype) init;
+-(instancetype) initTo: (int) n over: (int) d;
 -(void) print;
 -(double) asDouble;
 -(void) setTo: (int) n over: (int) d;

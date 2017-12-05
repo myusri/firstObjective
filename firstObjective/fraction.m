@@ -1,6 +1,16 @@
 #import "fraction.h"
 
 @implementation Fraction
+-(instancetype) initTo: (int) n over: (int) d {
+    self = [super init];
+    if (self) {
+        [self setTo: n over: d];
+    }
+    return self;
+}
+-(instancetype) init {
+    return [self initTo: 0 over: 1];
+}
 -(void) print {
     [self reduce];
     int i = _numerator / _denominator;
