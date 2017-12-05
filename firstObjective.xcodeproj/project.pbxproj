@@ -25,7 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		578BE31C1FD5197000CDEDA8 /* prog2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog2; sourceTree = BUILT_PRODUCTS_DIR; };
+		578BE31C1FD5197000CDEDA8 /* firstObjective */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = firstObjective; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BE31F1FD5197000CDEDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		578BE3261FD519C400CDEDA8 /* fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fraction.h; sourceTree = "<group>"; };
 		578BE3271FD519E900CDEDA8 /* fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fraction.m; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		578BE3131FD5197000CDEDA8 = {
 			isa = PBXGroup;
 			children = (
-				578BE31E1FD5197000CDEDA8 /* prog2 */,
+				578BE31E1FD5197000CDEDA8 /* firstObjective */,
 				578BE31D1FD5197000CDEDA8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,12 +55,12 @@
 		578BE31D1FD5197000CDEDA8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				578BE31C1FD5197000CDEDA8 /* prog2 */,
+				578BE31C1FD5197000CDEDA8 /* firstObjective */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		578BE31E1FD5197000CDEDA8 /* prog2 */ = {
+		578BE31E1FD5197000CDEDA8 /* firstObjective */ = {
 			isa = PBXGroup;
 			children = (
 				578BE31F1FD5197000CDEDA8 /* main.m */,
@@ -69,15 +69,15 @@
 				578BE3291FD6160400CDEDA8 /* complex.h */,
 				578BE32A1FD6160400CDEDA8 /* complex.m */,
 			);
-			path = prog2;
+			path = firstObjective;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		578BE31B1FD5197000CDEDA8 /* prog2 */ = {
+		578BE31B1FD5197000CDEDA8 /* firstObjective */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 578BE3231FD5197000CDEDA8 /* Build configuration list for PBXNativeTarget "prog2" */;
+			buildConfigurationList = 578BE3231FD5197000CDEDA8 /* Build configuration list for PBXNativeTarget "firstObjective" */;
 			buildPhases = (
 				578BE3181FD5197000CDEDA8 /* Sources */,
 				578BE3191FD5197000CDEDA8 /* Frameworks */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = prog2;
+			name = firstObjective;
 			productName = prog2;
-			productReference = 578BE31C1FD5197000CDEDA8 /* prog2 */;
+			productReference = 578BE31C1FD5197000CDEDA8 /* firstObjective */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 578BE3171FD5197000CDEDA8 /* Build configuration list for PBXProject "prog2" */;
+			buildConfigurationList = 578BE3171FD5197000CDEDA8 /* Build configuration list for PBXProject "firstObjective" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				578BE31B1FD5197000CDEDA8 /* prog2 */,
+				578BE31B1FD5197000CDEDA8 /* firstObjective */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +260,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		578BE3171FD5197000CDEDA8 /* Build configuration list for PBXProject "prog2" */ = {
+		578BE3171FD5197000CDEDA8 /* Build configuration list for PBXProject "firstObjective" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				578BE3211FD5197000CDEDA8 /* Debug */,
@@ -269,7 +269,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		578BE3231FD5197000CDEDA8 /* Build configuration list for PBXNativeTarget "prog2" */ = {
+		578BE3231FD5197000CDEDA8 /* Build configuration list for PBXNativeTarget "firstObjective" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				578BE3241FD5197000CDEDA8 /* Debug */,
