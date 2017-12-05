@@ -1,4 +1,4 @@
-#import "fraction.h"
+#import "Fraction.h"
 
 @implementation Fraction
 -(instancetype) initTo: (int) n over: (int) d {

@@ -1,5 +1,5 @@
-#import "fraction.h"
-#import "complex.h"
+#import "Fraction+MoreMathOps.h"
+#import "Complex.h"
 
 static Fraction *testFraction(void) {
     Fraction *f1 = [[Fraction alloc] initTo: 3 over: 4];
@@ -9,7 +9,16 @@ static Fraction *testFraction(void) {
     NSLog(@"fraction 2: ");
     [f2 print];
     Fraction *f3 = [f1 add: f2];
-    NSLog(@"fraction 1 + fraction 2: ");
+    NSLog(@"fraction 3 = fraction 1 + fraction 2: ");
+    [f3 print];
+    f3 = [f3 sub: f2];
+    NSLog(@"fraction 3 - fraction 2: ");
+    [f3 print];
+    NSLog(@"fraction 3 = fraction 1 * fraction 2: ");
+    f3 = [f1 mul: f2];
+    [f3 print];
+    NSLog(@"fraction 3 = fraction 3 / fraction 2: ");
+    f3 = [f3 div: f2];
     [f3 print];
     return f3;
 }

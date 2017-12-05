@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		578BE3201FD5197000CDEDA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 578BE31F1FD5197000CDEDA8 /* main.m */; };
-		578BE3281FD519E900CDEDA8 /* fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 578BE3271FD519E900CDEDA8 /* fraction.m */; };
-		578BE32B1FD6160400CDEDA8 /* complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 578BE32A1FD6160400CDEDA8 /* complex.m */; };
+		578BE3281FD519E900CDEDA8 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 578BE3271FD519E900CDEDA8 /* Fraction.m */; };
+		578BE32B1FD6160400CDEDA8 /* Complex.m in Sources */ = {isa = PBXBuildFile; fileRef = 578BE32A1FD6160400CDEDA8 /* Complex.m */; };
+		57E1721A1FD67CC10016C26E /* Fraction+MoreMathOps.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E172191FD67CC10016C26E /* Fraction+MoreMathOps.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +28,12 @@
 /* Begin PBXFileReference section */
 		578BE31C1FD5197000CDEDA8 /* firstObjective */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = firstObjective; sourceTree = BUILT_PRODUCTS_DIR; };
 		578BE31F1FD5197000CDEDA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		578BE3261FD519C400CDEDA8 /* fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fraction.h; sourceTree = "<group>"; };
-		578BE3271FD519E900CDEDA8 /* fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fraction.m; sourceTree = "<group>"; };
-		578BE3291FD6160400CDEDA8 /* complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
-		578BE32A1FD6160400CDEDA8 /* complex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = complex.m; sourceTree = "<group>"; };
+		578BE3261FD519C400CDEDA8 /* Fraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		578BE3271FD519E900CDEDA8 /* Fraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
+		578BE3291FD6160400CDEDA8 /* Complex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Complex.h; sourceTree = "<group>"; };
+		578BE32A1FD6160400CDEDA8 /* Complex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Complex.m; sourceTree = "<group>"; };
+		57E172181FD67CA50016C26E /* Fraction+MoreMathOps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fraction+MoreMathOps.h"; sourceTree = "<group>"; };
+		57E172191FD67CC10016C26E /* Fraction+MoreMathOps.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Fraction+MoreMathOps.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,10 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				578BE31F1FD5197000CDEDA8 /* main.m */,
-				578BE3261FD519C400CDEDA8 /* fraction.h */,
-				578BE3271FD519E900CDEDA8 /* fraction.m */,
-				578BE3291FD6160400CDEDA8 /* complex.h */,
-				578BE32A1FD6160400CDEDA8 /* complex.m */,
+				578BE3261FD519C400CDEDA8 /* Fraction.h */,
+				578BE3271FD519E900CDEDA8 /* Fraction.m */,
+				578BE3291FD6160400CDEDA8 /* Complex.h */,
+				578BE32A1FD6160400CDEDA8 /* Complex.m */,
+				57E172181FD67CA50016C26E /* Fraction+MoreMathOps.h */,
+				57E172191FD67CC10016C26E /* Fraction+MoreMathOps.m */,
 			);
 			path = firstObjective;
 			sourceTree = "<group>";
@@ -129,9 +134,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57E1721A1FD67CC10016C26E /* Fraction+MoreMathOps.m in Sources */,
 				578BE3201FD5197000CDEDA8 /* main.m in Sources */,
-				578BE32B1FD6160400CDEDA8 /* complex.m in Sources */,
-				578BE3281FD519E900CDEDA8 /* fraction.m in Sources */,
+				578BE32B1FD6160400CDEDA8 /* Complex.m in Sources */,
+				578BE3281FD519E900CDEDA8 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
