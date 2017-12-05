@@ -1,8 +1,11 @@
-#import "frac.h"
+#import "fraction.h"
 
 @implementation Fraction
 -(void) print {
-    NSLog(@"%i/%i (%g)", _numerator, _denominator, [self asDouble]);
+    int i = _numerator / _denominator;
+    int r = _numerator % _denominator;
+    if (i) NSLog(@"%i %i/%i (%g)", i, r, _denominator, [self asDouble]);
+    else   NSLog(@"%i/%i (%g)", _numerator, _denominator, [self asDouble]);
 }
 -(double) asDouble {
     if (_denominator == 0) return NAN;
