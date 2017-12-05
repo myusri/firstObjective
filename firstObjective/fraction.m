@@ -2,6 +2,7 @@
 
 @implementation Fraction
 -(void) print {
+    [self reduce];
     int i = _numerator / _denominator;
     int r = _numerator % _denominator;
     if (i) NSLog(@"%i %i/%i (%g)", i, r, _denominator, [self asDouble]);

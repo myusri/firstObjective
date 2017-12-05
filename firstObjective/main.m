@@ -11,7 +11,6 @@ static Fraction *testFraction(void) {
     NSLog(@"fraction 2: ");
     [f2 print];
     Fraction *f3 = [f1 add: f2];
-    [f3 reduce];
     NSLog(@"fraction 1 + fraction 2: ");
     [f3 print];
     return f3;
@@ -34,10 +33,6 @@ static Complex *testComplex(void) {
 
 static id twice(id val) {
     val = [val add: val];
-    SEL reduce = @selector(reduce);
-    if ([val respondsToSelector: reduce]) {
-        [val reduce];
-    }
     NSLog(@"val + val:");
     [val print];
     return val;
